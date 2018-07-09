@@ -42,7 +42,11 @@ public class playground {
         //System.out.println(daysofDraws);
         DAOmysql connect = new DAOmysql();
         try {
-                doInsert(connect.getConnection(),getRemoteEuroResults(daysofDraws) );
+            System.out.println("Extracting Data from the web ..........");
+            for (EuroResults elm : getRemoteEuroResults(daysofDraws)) {
+                System.out.println(elm);
+            }
+                //doInsert(connect.getConnection(),getRemoteEuroResults(daysofDraws) );
 
         } catch (Exception e) {
             e.printStackTrace();

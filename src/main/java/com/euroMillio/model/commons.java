@@ -26,6 +26,7 @@ public class commons {
             LocalDate startDate, LocalDate endDate) {
 
         long numOfDaysBetween = ChronoUnit.DAYS.between(startDate, endDate);
+        System.out.println("Generating all sample draw days dates.....");
 
         return IntStream.iterate(0, i -> i + 7)
                 .limit(numOfDaysBetween / 7 + 1)
@@ -51,22 +52,18 @@ public class commons {
         SimpleDateFormat formatter1 = new SimpleDateFormat("EEEE dd MMM yyyy");
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
-        //this
-        StringBuilder newdateInString = new StringBuilder();
         String[] spt = dateInString.split(" ");
-        String str = spt[1].replaceAll("[^0-9][th]", "").
-                replaceAll("[^0-9][nd]", "").replaceAll("[^0-9][rd]", "");
+        spt[1] = spt[1].replaceAll("[^0-9]", "");
 
-        newdateInString.append(spt[0]).append(" ").append(str).append(" ").append(spt[2]).append(" ").append(spt[3]);
-        dateInString = newdateInString.toString();
+
         try {
 
-            Date date = formatter1.parse(dateInString);
+            Date date = formatter1.parse(String.join(" ", spt));
 
-            return date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate().format(formatter);
+           return date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate().format(formatter);
 
         } catch (ParseException e) {
-            throw e;
+             throw e;
         }
     }
 
