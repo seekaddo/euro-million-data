@@ -57,17 +57,7 @@ public class playground {
 
 
 
-        /*DAOmysql connect = new DAOmysql();
-        try {
-            List<Person> p = getAllUsers(connect.getConnection());
-            System.out.println(p.toString());
-            System.out.println(p.size());
 
-
-            System.out.println("Last Elemet: "+getLastElement(connect.getConnection()));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
 
 
 

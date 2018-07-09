@@ -20,24 +20,6 @@ public class DAOmysql {
         }
     }
 
-    public static ArrayList<Person> getAllUsers(Connection connection) throws Exception {
-        ArrayList<Person> userList = new ArrayList<Person>();
-        try {
-            PreparedStatement ps = connection
-                    .prepareStatement("SELECT * FROM person");
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()) {
-                Person uservo = new Person();
-                uservo.setName(rs.getString("name"));
-                uservo.setAge(rs.getInt("age"));
-                uservo.setLocation(rs.getString("location"));
-                userList.add(uservo);
-            }
-            return userList;
-        } catch (Exception e) {
-            throw e;
-        }
-    }
 
     public static boolean doInsert(Connection connection, List<EuroResults> eRts) throws Exception{
         boolean status = false;
@@ -63,20 +45,20 @@ public class DAOmysql {
         }
     }
 
-    public static Person getLastElement(Connection connection) throws Exception {
-        Person p = new Person();
+    public static EuroResults getLastElement(Connection connection) throws Exception {
+        EuroResults p = new EuroResults();
         try {
             PreparedStatement ps = connection
                     .prepareStatement("SELECT *\n" +
-                            "FROM person\n" +
-                            "ORDER BY name DESC\n" +
+                            "FROM euroresults\n" +
+                            "ORDER BY drawNr DESC\n" +
                             "LIMIT 1");
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
-                p.setName(rs.getString("name"));
+                p.setDrawNr(rs.getLong("drawNr"));
 
-                p.setAge(rs.getInt("age"));
-                p.setLocation(rs.getString("location"));
+                p.setBalls_drawn(rs.getString("balls_drawn"));
+                p.setData(rs.getString("date"));
             }
             return p;
         } catch (Exception e) {
