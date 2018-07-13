@@ -42,6 +42,17 @@ public class playground {
         //System.out.println(daysofDraws);
         DAOmysql connect = new DAOmysql();
         try {
+
+            /*EuroResults result = new EuroResults();
+            result.setDrawNr(1221);
+            result.setBalls_drawn("23 22 54 23");
+            result.setLucky_stars("9 8");
+            result.setData("1-12-2018");
+
+            String update = String.format("insert into euromlDB " +
+                            "(drawNr, date, balls_drawn, lucky_stars)  values (%d, %s, %s, %s)",
+                    result.getDrawNr(), result.getData(), result.getBalls_drawn(), result.getLucky_stars());
+            System.out.println(update);*/
             System.out.println("Extracting Data from the web ..........");
             for (EuroResults elm : getRemoteEuroResults(daysofDraws)) {
                 System.out.println(elm);
