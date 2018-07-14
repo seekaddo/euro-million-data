@@ -5,9 +5,6 @@ import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-import static com.euroMillio.model.DAOmysql.*;
-import static com.euroMillio.model.DAOmysql.doInsert;
-import static com.euroMillio.model.commons.*;
 import static com.euroMillio.model.commons.getFreidaysBetwn2004_und2010;
 import static com.euroMillio.model.commons.getRemoteEuroResults;
 
