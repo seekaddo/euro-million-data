@@ -1,0 +1,33 @@
+version: 1.0.{build}
+max_jobs: 4
+build:
+  verbosity: detailed
+
+platform:
+- x86
+- Any CPU
+
+configuration:
+- Debug
+- Release
+
+environment:
+  matrix:
+  - JAVA_HOME: C:\Program Files (x86)\Java\jdk1.8.0
+  - JAVA_HOME: C:\Program Files\Java\jdk1.8.0
+
+# Do not build on tags
+skip_tags: true
+
+
+install:
+  - mvn --version
+  - javac --version
+build_script:
+  - mvn --batch-mode clean  -DskipTests
+test_script:
+  - mvn install
+
+cache:
+  - C:\Users\appveyor\.m2
+  - C:\maven\

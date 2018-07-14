@@ -79,7 +79,6 @@ public class DAOcloudSql {
                     result.getDrawNr(), result.getData(), result.getBalls_drawn(), result.getLucky_stars());
 
             return statement.executeUpdate(update);
-
         }
 
     }
