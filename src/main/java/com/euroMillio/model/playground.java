@@ -37,7 +37,6 @@ public class playground {
 
         System.out.println("------------------------------------");
         //System.out.println(daysofDraws);
-        DAOmysql connect = new DAOmysql();
         try {
 
             /*EuroResults result = new EuroResults();
