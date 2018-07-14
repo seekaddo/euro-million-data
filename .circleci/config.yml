@@ -9,10 +9,6 @@ jobs:
     # specify the version you desire here
     - image: circleci/openjdk:8-jdk
 
-    - image: circleci/openjdk:10.0.1-jdk-browsers
-
-    - image: circleci/openjdk:8-jdk-stretch-node-browsers
-
     # Specify service dependencies here if necessary
     # CircleCI maintains a library of pre-built images
     # documented at https://circleci.com/docs/2.0/circleci-images/
