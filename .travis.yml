@@ -4,21 +4,9 @@ matrix:
   include:
   - os: linux
     jdk: oraclejdk8
-    addons:
-      apt:
-        packages:
-        - oracle-java8-installer
-    env:
-    - PATH: "$M2_HOME/bin:$PATH"
-    before_install:
-    - echo "MAVEN_OPTS=\"$MAVEN_OPTS\"" > $HOME/.mavenrc
 
   - os: osx
     osx_image: xcode8.3 # see https://docs.travis-ci.com/user/osx-ci-environment/
-    env:
-    #- _JAVA_OPTIONS="-Djava.awt.headless=true -Dtestfx.robot=glass -Dtestfx.headless=true -Dprism.order=sw -Dprism.text=t2k -Dtestfx.setup.timeout=2500"
-    before_install:
-    #- echo "MAVEN_OPTS=\"$MAVEN_OPTS\"" > $HOME/.mavenrc
 
 
 
