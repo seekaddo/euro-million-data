@@ -21,13 +21,13 @@ public class DAOcloudSql {
 
     /*
      * Login Details here
-     * Username: root
-     * Password: 65d5991b
+     * Username: xxxx
+     * Password: xxxx
      * */
-    final private String username = "root";
+    final private String username = System.getenv("USER_NAME");//"xxx";
     // This is the password that was set via the Cloud Console or empty if never set
     // (not recommended).
-    final private String password = "65d5991b";
+    final private String password = System.getenv("PASSWORD");//"xxxx";
 
     //[START doc-example]
     String jdbcUrl = String.format(
