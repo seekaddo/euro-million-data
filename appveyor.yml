@@ -22,7 +22,7 @@ skip_tags: true
 
 install:
   - mvn --version
-  - javac --version
+  - javac -version
 build_script:
   - mvn --batch-mode clean  -DskipTests
 test_script:
