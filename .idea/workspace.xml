@@ -28,9 +28,10 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5278705d-0008-4e8c-95df-bf6c04c28255" name="Default Changelist" comment="">
+    <list default="true" id="5278705d-0008-4e8c-95df-bf6c04c28255" name="Default Changelist" comment="adding appveyor support for Windows build and reformating build status">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +89,7 @@
           <entry key="credentials" value="1" />
           <entry key="java" value="29" />
           <entry key="json" value="2" />
-          <entry key="md" value="4" />
+          <entry key="md" value="5" />
           <entry key="properties" value="2" />
           <entry key="sql" value="6" />
           <entry key="xml" value="8" />
@@ -100,7 +101,7 @@
           <entry key="CLASS" value="19" />
           <entry key="JAVA" value="29" />
           <entry key="JSON" value="2" />
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="2" />
           <entry key="SQL" value="4" />
@@ -114,8 +115,8 @@
         <counts>
           <entry key="Procfile" value="2" />
           <entry key="dummy" value="4" />
-          <entry key="java" value="3585" />
-          <entry key="md" value="434" />
+          <entry key="java" value="3587" />
+          <entry key="md" value="645" />
           <entry key="properties" value="1" />
           <entry key="sql" value="11" />
           <entry key="txt" value="333" />
@@ -125,8 +126,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3584" />
-          <entry key="Markdown" value="434" />
+          <entry key="JAVA" value="3586" />
+          <entry key="Markdown" value="645" />
           <entry key="PLAIN_TEXT" value="339" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="12" />
@@ -145,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="53" />
+            <state relative-caret-position="559">
+              <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,6 +179,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
@@ -230,19 +243,19 @@
         <option value="$PROJECT_DIR$/system.properties" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/appveyor.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AmazonDynamoDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/commons.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/DAOcloudSql.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/EuroResults.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AmazonDynamoDBSample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/heroku/Main.java" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -941,7 +954,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532298282565" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532299143650" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -967,7 +980,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
+  <component name="RunManager" selected="Application.playground">
     <configuration name="AmazonDynamoDBSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.euroMillio.model.AmazonDynamoDBSample" />
       <module name="euro-million-data" />
@@ -1141,7 +1154,7 @@
       <workItem from="1531502220404" duration="231000" />
       <workItem from="1531571388837" duration="6523000" />
       <workItem from="1531579384399" duration="2990000" />
-      <workItem from="1532261799768" duration="25449000" />
+      <workItem from="1532261799768" duration="26540000" />
     </task>
     <task id="LOCAL-00001" summary="optimizing the java8 codes">
       <created>1531157531621</created>
@@ -1287,7 +1300,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57561000" />
+    <option name="totallyTimeSpent" value="58652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -1522,16 +1535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/util/TableUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1693,16 +1696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/credentials.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1756,6 +1749,26 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

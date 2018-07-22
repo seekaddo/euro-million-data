@@ -55,16 +55,16 @@ public class playground {
             System.out.println(update);*/
 
             init();
-            System.out.println(daysofDraws1);
+            System.out.println(daysofDraws);
             System.out.println("Extracting Data from the web ..........");
-            for (EuroResults elm : getRemoteEuroResults(daysofDraws1)) {
+            for (EuroResults elm : getRemoteEuroResults(daysofDraws)) {
                 doPutItem(elm);
                 //System.out.println(newItem(elm).toJSONPretty());
                 //System.out.println(elm);
             }
 
 
-            System.out.println(getAllItemsFromTable());
+            //System.out.println(getAllItemsFromTable());
 
                 //doInsert(connect.getConnection(),getRemoteEuroResults(daysofDraws) );
 
