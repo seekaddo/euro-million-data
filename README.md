@@ -10,6 +10,8 @@ Build and tested on the following CI platforms.
 Just for fun.
 
 REST API Server will be hosted on Heroku with DynamoDB support.
+For more infomation about the DynamoDB Java API, checkout the JavaDoc [here](https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/overview-summary.html)
+
 Nothing here at the moment to test. Still under development.
 Extracting raw data from https://www.euro-millions.com/results-archive-2018
 
