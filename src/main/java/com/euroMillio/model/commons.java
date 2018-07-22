@@ -85,14 +85,14 @@ public class commons {
 
                 //get the draw balls
                 elm.setBalls_drawn(drawsballs.getElementsByClass("ball").stream().map(
-                        Element::text).collect(Collectors.joining(" ")));
+                        Element::text).collect(Collectors.toList()));
                 //get the draw date
                 Elements drawsDate = doc.getElementsByClass("draw-date");
                 elm.setData(convertToLocalDate(drawsDate.text()));
                 //get the 3 licky stars
                 elm.setLucky_stars(drawsballs.getElementsByClass("lucky-star").stream().map(
                         Element::text
-                ).collect(Collectors.joining(" ")));
+                ).collect(Collectors.toList()));
 
                 //get draw number
                 Elements drawsnumber = doc.getElementsByClass("draw-number");

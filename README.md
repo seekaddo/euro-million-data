@@ -9,7 +9,7 @@ Build and tested on the following CI platforms.
 
 Just for fun.
 
-REST API Server will be hosted on Google Cloud service with CloudSQL support.
+REST API Server will be hosted on Heroku with DynamoDB support.
 Nothing here at the moment to test. Still under development.
 Extracting raw data from https://www.euro-millions.com/results-archive-2018
 

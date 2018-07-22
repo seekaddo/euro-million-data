@@ -1,10 +1,12 @@
 package com.euroMillio.model;
 
+import java.util.*;
+
 public class EuroResults {
 
     String data;
-    String balls_drawn;
-    String lucky_stars;
+    private ArrayList<String> balls_drawn = new ArrayList<>();
+    private ArrayList<String> lucky_stars = new ArrayList<>();
     long drawNr;
 
     public String getData() {
@@ -15,20 +17,20 @@ public class EuroResults {
         this.data = data;
     }
 
-    public String getBalls_drawn() {
-        return balls_drawn;
+    public List<String> getBalls_drawn() {
+        return Collections.unmodifiableList(balls_drawn);
     }
 
-    public void setBalls_drawn(String balls_drawn) {
-        this.balls_drawn = balls_drawn;
+    public void setBalls_drawn(Collection<String> balls_drawn) {
+        this.balls_drawn = new ArrayList<>(balls_drawn)  ;
     }
 
-    public String getLucky_stars() {
-        return lucky_stars;
+    public List<String> getLucky_stars() {
+        return Collections.unmodifiableList(lucky_stars);
     }
 
-    public void setLucky_stars(String lucky_stars) {
-        this.lucky_stars = lucky_stars;
+    public void setLucky_stars(Collection<String> lucky_stars) {
+        this.lucky_stars = new ArrayList<>(lucky_stars);
     }
 
     public long getDrawNr() {
@@ -42,6 +44,6 @@ public class EuroResults {
     }
     @Override
     public String toString() {
-        return  '['+data +']'+ ' ' + balls_drawn +' '+ '['+ lucky_stars+']' + ' ' + drawNr ;
+        return  data + ' ' + balls_drawn +' '+ lucky_stars + ' ' + drawNr ;
     }
 }

@@ -1,10 +1,13 @@
 package com.euroMillio.model;
 
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
+import static com.euroMillio.model.AwsDynamoDB.*;
+import static com.euroMillio.model.commons.getDaysRangeByDaysOfWekk;
 import static com.euroMillio.model.commons.getFreidaysBetwn2004_und2010;
 import static com.euroMillio.model.commons.getRemoteEuroResults;
 
@@ -30,8 +33,9 @@ public class playground {
         //System.out.println("Size " + getFreidaysBetwn2004_und2010(dateBefore, dateAfter).size());
 
 
-        List<String> daysofDraws = getFreidaysBetwn2004_und2010(dateBefore, dateAfter);//getDaysRangeByDaysOfWekk(LocalDate.parse("03-07-2018",
-                //formatter), LocalDate.now(), DayOfWeek.TUESDAY, DayOfWeek.FRIDAY);
+        List<String> daysofDraws = getFreidaysBetwn2004_und2010(dateBefore, dateAfter);
+
+        List<String> daysofDraws1 = getDaysRangeByDaysOfWekk(LocalDate.parse("01-07-2018",formatter), LocalDate.now(), DayOfWeek.TUESDAY, DayOfWeek.FRIDAY);
 
 
 
@@ -49,10 +53,19 @@ public class playground {
                             "(drawNr, date, balls_drawn, lucky_stars)  values (%d, %s, %s, %s)",
                     result.getDrawNr(), result.getData(), result.getBalls_drawn(), result.getLucky_stars());
             System.out.println(update);*/
+
+            init();
+            System.out.println(daysofDraws1);
             System.out.println("Extracting Data from the web ..........");
-            for (EuroResults elm : getRemoteEuroResults(daysofDraws)) {
-                System.out.println(elm);
+            for (EuroResults elm : getRemoteEuroResults(daysofDraws1)) {
+                doPutItem(elm);
+                //System.out.println(newItem(elm).toJSONPretty());
+                //System.out.println(elm);
             }
+
+
+            System.out.println(getAllItemsFromTable());
+
                 //doInsert(connect.getConnection(),getRemoteEuroResults(daysofDraws) );
 
         } catch (Exception e) {

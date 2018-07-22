@@ -2,6 +2,7 @@ package com.euroMillio.model;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class DAOcloudSql {
@@ -62,9 +63,9 @@ public class DAOcloudSql {
 
             while (resultSet.next()) {
                 EuroResults euroResults = new EuroResults();
-                euroResults.setBalls_drawn(resultSet.getString("balls_drawn"));
+                euroResults.setBalls_drawn(Arrays.asList(resultSet.getString("balls_drawn").split(" ")));
                 euroResults.setData(resultSet.getString("date"));
-                euroResults.setLucky_stars(resultSet.getString("lucky_stars"));
+                euroResults.setLucky_stars(Arrays.asList(resultSet.getString("lucky_stars").split(" ")));
                 euroResults.setDrawNr(resultSet.getInt("drawNr"));
                 rsults.add(euroResults);
             }
