@@ -22,3 +22,34 @@ Sample Rest-api Data can be found here
 [https://euro-mil-restapi.seekaddo.me/api_v1.0/euro-million](https://euro-mil-restapi.seekaddo.me/api_v1.0/euro-million).
 
 which contains the data from 31-12-2004 to 2010.
+
+### Rest-API Data
+
+#### sample from 31-12-2004
+
+DrawNr: Is the Draw number
+Date: lol
+data: contains balls drawn that is the 5 balls with 2 lucky stars
+
+```json
+{
+  "drawNr": 47,
+  "date": "31-12-2004",
+  "data": [
+    {
+      "balls_drawn": [
+        "7",
+        "8",
+        "24",
+        "25",
+        "47"
+      ],
+      "lucky_stars": [
+        "8",
+        "9"
+      ]
+    }
+  ]
+}
+
+```
