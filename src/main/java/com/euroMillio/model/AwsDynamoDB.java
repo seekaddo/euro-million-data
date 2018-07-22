@@ -56,6 +56,9 @@ import javax.json.JsonArray;
  * */
 public class AwsDynamoDB {
 
+
+    final static String tableName = "euro-million-data";
+
     /*
      *  The credentials will be kept in heroku env.
      *
@@ -102,8 +105,6 @@ public class AwsDynamoDB {
 
 
     public static List<String> getAllItemsFromTable(){
-        String tableName = "euro-million-data";
-        Table table = dynamoDBClient.getTable(tableName);
 
        return dynamoDB.scan(new ScanRequest().withTableName(tableName)).
                getItems().stream().map(e-> ItemUtils.toItem(e).toJSON()).
@@ -131,11 +132,6 @@ public class AwsDynamoDB {
 
     public static void doPutItem(EuroResults results){
 
-       /* static AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().build();
-        static DynamoDB dynamoDB = new DynamoDB(client);*/
-
-
-        String tableName = "euro-million-data";
         Table table = dynamoDBClient.getTable(tableName);
 
         PutItemOutcome putItemOutcome = table.putItem(newItem(results));
