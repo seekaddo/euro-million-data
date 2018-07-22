@@ -29,7 +29,9 @@ public class Main {
         root.setParentLoaderPriority(true);
 
         final String webappDirLocation = "src/main/webapp/";
+
         root.setDescriptor(webappDirLocation + "/WEB-INF/web.xml");
+
         root.setResourceBase(webappDirLocation);
 
         server.setHandler(root);

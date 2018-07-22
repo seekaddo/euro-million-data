@@ -29,15 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5278705d-0008-4e8c-95df-bf6c04c28255" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/DAOcloudSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/DAOcloudSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/EuroResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/EuroResults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/commons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,12 +83,13 @@
         <counts>
           <entry key="0-SNAPSHOT" value="1" />
           <entry key="LICENSE" value="1" />
+          <entry key="Procfile" value="2" />
           <entry key="class" value="18" />
           <entry key="credentials" value="1" />
-          <entry key="java" value="26" />
-          <entry key="json" value="1" />
+          <entry key="java" value="29" />
+          <entry key="json" value="2" />
           <entry key="md" value="4" />
-          <entry key="properties" value="1" />
+          <entry key="properties" value="2" />
           <entry key="sql" value="6" />
           <entry key="xml" value="7" />
           <entry key="yml" value="4" />
@@ -104,11 +98,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="18" />
-          <entry key="JAVA" value="26" />
-          <entry key="JSON" value="1" />
+          <entry key="JAVA" value="29" />
+          <entry key="JSON" value="2" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="2" />
           <entry key="SQL" value="4" />
           <entry key="Scratch" value="2" />
           <entry key="UML" value="1" />
@@ -118,6 +112,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Procfile" value="1" />
           <entry key="dummy" value="4" />
           <entry key="java" value="3561" />
           <entry key="md" value="434" />
@@ -132,7 +127,7 @@
         <counts>
           <entry key="JAVA" value="3560" />
           <entry key="Markdown" value="434" />
-          <entry key="PLAIN_TEXT" value="337" />
+          <entry key="PLAIN_TEXT" value="338" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="12" />
           <entry key="XML" value="86" />
@@ -151,10 +146,19 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
-              <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="53" />
+              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/heroku/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -185,11 +189,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="132">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="75" lean-forward="true" selection-start-column="75" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -237,6 +250,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -877,6 +891,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="euroMillio" type="462c0819:PsiDirectoryNode" />
+              <item name="heroku" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="euroMillio" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -926,7 +949,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532293557533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532294341587" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -952,7 +975,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
     <configuration name="AmazonDynamoDBSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.euroMillio.model.AmazonDynamoDBSample" />
       <module name="euro-million-data" />
@@ -1013,7 +1036,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/api_v1.0/euro-million" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
@@ -1086,7 +1109,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Tomcat Server.Tomcat 9" />
       <item itemvalue="Application.sampleMain" />
       <item itemvalue="Application.playground" />
       <item itemvalue="Application.ListTables" />
@@ -1126,7 +1149,7 @@
       <workItem from="1531502220404" duration="231000" />
       <workItem from="1531571388837" duration="6523000" />
       <workItem from="1531579384399" duration="2990000" />
-      <workItem from="1532261799768" duration="22366000" />
+      <workItem from="1532261799768" duration="23272000" />
     </task>
     <task id="LOCAL-00001" summary="optimizing the java8 codes">
       <created>1531157531621</created>
@@ -1272,10 +1295,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54478000" />
+    <option name="totallyTimeSpent" value="55384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.226979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1474,13 +1498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1488,21 +1505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/credentials.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5ada240b-939a-4c77-84f0-7edb2663159d/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/heroku/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appveyor.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1698,16 +1701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1725,10 +1718,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="132">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="75" lean-forward="true" selection-start-column="75" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credentials.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/heroku/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
