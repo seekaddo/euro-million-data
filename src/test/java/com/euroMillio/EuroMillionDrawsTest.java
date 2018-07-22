@@ -1,12 +1,14 @@
 package com.euroMillio;
 
 import javax.ws.rs.core.Application;
+import javax.ws.rs.core.Response;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.test.JerseyTest;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class EuroMillionDrawsTest extends JerseyTest {
 
@@ -20,8 +22,8 @@ public class EuroMillionDrawsTest extends JerseyTest {
      */
     @Test
     public void testGetIt() {
-        final String responseMsg = target().path("myresource").request().get(String.class);
+        final Response responseMsg = target().path("euro-million").request().get();
 
-        assertEquals("Hello, Euro Million!", responseMsg);
+        assertNotNull(responseMsg);
     }
 }
