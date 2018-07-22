@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="euro-million-data:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5278705d-0008-4e8c-95df-bf6c04c28255" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/DAOcloudSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/DAOcloudSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/EuroResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/EuroResults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/commons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cloudsql" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-206468656">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="0-SNAPSHOT" value="1" />
+          <entry key="LICENSE" value="1" />
+          <entry key="class" value="18" />
+          <entry key="credentials" value="1" />
+          <entry key="java" value="26" />
+          <entry key="json" value="1" />
+          <entry key="md" value="4" />
+          <entry key="properties" value="1" />
+          <entry key="sql" value="6" />
+          <entry key="xml" value="7" />
+          <entry key="yml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="18" />
+          <entry key="JAVA" value="26" />
+          <entry key="JSON" value="1" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="SQL" value="4" />
+          <entry key="Scratch" value="2" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="7" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="java" value="3561" />
+          <entry key="md" value="434" />
+          <entry key="properties" value="1" />
+          <entry key="sql" value="11" />
+          <entry key="txt" value="333" />
+          <entry key="xml" value="86" />
+          <entry key="yml" value="123" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3560" />
+          <entry key="Markdown" value="434" />
+          <entry key="PLAIN_TEXT" value="337" />
+          <entry key="Properties" value="1" />
+          <entry key="SQL" value="12" />
+          <entry key="XML" value="86" />
+          <entry key="YAML" value="123" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.composer.actions" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/AmazonDynamoDBSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1308">
+              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="88" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6425#6444#0" expanded="true" />
+                <element signature="e#8094#8118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sql</find>
+      <find>newItem</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/MyResource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/euroMillio/EuroMillionDrawsTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5ada240b-939a-4c77-84f0-7edb2663159d/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/sampleMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/DAOmysql.java" />
+        <option value="$PROJECT_DIR$/.credentials" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/ListTables.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/system.properties" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/appveyor.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AmazonDynamoDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/commons.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/DAOcloudSql.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/EuroResults.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AmazonDynamoDBSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="euro-million-data" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="euro-million-data" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="739" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="8-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="false" value="56.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="8-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="false" value="41.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="8-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="false" value="56.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="8-7-2018">
+        <observation name="0" value="1.0" />
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="0" value="19.0" />
+        <observation name="UNDEFINED" value="37.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="8-7-2018">
+        <observation name="false" value="1.0" />
+        <observation name="true" value="1.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="false" value="4.0" />
+        <observation name="true" value="37.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="8-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="false" value="24.0" />
+        <observation name="true" value="17.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="8-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="false" value="19.0" />
+        <observation name="true" value="22.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="8-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="false" value="19.0" />
+        <observation name="true" value="22.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="8-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="false" value="26.0" />
+        <observation name="true" value="15.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="8-7-2018">
+        <observation name="false" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="false" value="44.0" />
+        <observation name="true" value="12.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="8-7-2018">
+        <observation name="NORMAL" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="NORMAL" value="41.0" />
+        <observation name="UNDEFINED" value="15.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="8-7-2018">
+        <observation name="expected" value="1.0" />
+        <observation name="normal" value="1.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="expected" value="16.0" />
+        <observation name="normal" value="25.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="8-7-2018">
+        <observation name="normal" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="classNameOrGlobalStatic" value="8.0" />
+        <observation name="expectedTypeVariable" value="3.0" />
+        <observation name="normal" value="15.0" />
+        <observation name="variable" value="15.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
+      <dailyData date="8-7-2018">
+        <observation name="unknown" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="unknown" value="41.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="8-7-2018">
+        <observation name="null" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="false" value="8.0" />
+        <observation name="null" value="33.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="8-7-2018">
+        <observation name="unknown" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="unknown" value="41.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="8-7-2018">
+        <observation name="UNDEFINED" value="1.0" />
+        <observation name="normal" value="1.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="normal" value="41.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionFinishedType">
+      <dailyData date="8-7-2018">
+        <observation name="cancelled" value="42.0" />
+        <observation name="explicitSelect" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="cancelled" value="319.0" />
+        <observation name="explicitSelect" value="48.0" />
+        <observation name="typedSelect" value="8.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="8-7-2018">
+        <observation name="BASIC" value="3.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="BASIC" value="71.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="8-7-2018">
+        <observation name="count" value="44.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="count" value="375.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="average" value="0.18018" />
+        <observation name="count" value="111.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.093581" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="111.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:mostUsed">
+      <dailyData date="8-7-2018">
+        <observation name="UNDEFINED" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="42.0" />
+        <observation name="average" value="-7.666667" />
+        <observation name="count" value="27.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-44.0" />
+        <observation name="variance" value="112.988737" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="average" value="-0.049383" />
+        <observation name="count" value="81.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1.0" />
+        <observation name="variance" value="0.036215" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="average" value="0.108108" />
+        <observation name="count" value="111.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.090645" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="-1118.333333" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="-1051.0" />
+        <observation name="min" value="-1152.0" />
+        <observation name="variance" value="566.722222" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="average" value="-1117.054054" />
+        <observation name="count" value="111.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="19390.1451" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="average" value="0.192793" />
+        <observation name="count" value="111.0" />
+        <observation name="max" value="5.4" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.52377" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="average" value="161.728395" />
+        <observation name="count" value="81.0" />
+        <observation name="max" value="300.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="13943.453794" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="average" value="1.851852" />
+        <observation name="count" value="81.0" />
+        <observation name="max" value="8.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="7.330408" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="average" value="1.08642" />
+        <observation name="count" value="81.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.77779" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="average" value="0.839506" />
+        <observation name="count" value="81.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.768763" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="111.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="12.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="16.0" />
+        <observation name="min" value="10.0" />
+        <observation name="variance" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="average" value="7.261261" />
+        <observation name="count" value="111.0" />
+        <observation name="max" value="29.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="29.9831" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="81.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="average" value="-49.333333" />
+        <observation name="count" value="81.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-999.0" />
+        <observation name="variance" value="36142.437129" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="15.0" />
+        <observation name="average" value="0.0" />
+        <observation name="count" value="81.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="111.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="-1.666667" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="1.388889" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="UNDEFINED" value="54.0" />
+        <observation name="average" value="-5.0" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="-5.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="-0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="8-7-2018">
+        <observation name="average" value="3333.333333" />
+        <observation name="count" value="3.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="5555555.555556" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="average" value="3872.108108" />
+        <observation name="count" value="111.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="19416463.723067" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="8-7-2018">
+        <observation name="0" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="0" value="44.0" />
+        <observation name="1" value="2.0" />
+        <observation name="2" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="8-7-2018">
+        <observation name="total" value="2.0" />
+        <observation name="withMnemonics" value="1.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="total" value="44.0" />
+        <observation name="withMnemonics" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="8-7-2018">
+        <observation name="2" value="2.0" />
+      </dailyData>
+      <dailyData date="9-7-2018">
+        <observation name="0" value="1.0" />
+        <observation name="1" value="3.0" />
+        <observation name="2" value="21.0" />
+        <observation name="3" value="7.0" />
+        <observation name="4" value="14.0" />
+        <observation name="5" value="1.0" />
+        <observation name="6" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="9-7-2018">
+        <observation name="average" value="358.851064" />
+        <observation name="count" value="94.0" />
+      </dailyData>
+    </factor>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="euroMillio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="euroMillio" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="euro-million-data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="euro-million-data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="euroMillio" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532293557533" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37471265" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/euroMillio" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="AmazonDynamoDBSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.euroMillio.model.AmazonDynamoDBSample" />
+      <module name="euro-million-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.euroMillio.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="./credentials.json" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.euroMillio.model.ListTables" />
+      <module name="euro-million-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.euroMillio.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="playground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="./credentials.json" />
+        <env name="USER_NAME" value="root" />
+        <env name="PASSWORD" value="65d5991b" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.euroMillio.model.playground" />
+      <module name="euro-million-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.euroMillio.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.euroMillio.model.sampleMain" />
+      <module name="euro-million-data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.euroMillio.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.10" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/api_v1.0/euro-million" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="euro-million-data:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_euro-million-data" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55403" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="euro-million-data:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.sampleMain" />
+      <item itemvalue="Application.playground" />
+      <item itemvalue="Application.ListTables" />
+      <item itemvalue="Application.AmazonDynamoDBSample" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.playground" />
+        <item itemvalue="Application.AmazonDynamoDBSample" />
+        <item itemvalue="Application.ListTables" />
+        <item itemvalue="Application.sampleMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5278705d-0008-4e8c-95df-bf6c04c28255" name="Default Changelist" comment="" />
+      <created>1531086312735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531086312735</updated>
+      <workItem from="1531086317465" duration="2774000" />
+      <workItem from="1531146120370" duration="1229000" />
+      <workItem from="1531155781992" duration="3355000" />
+      <workItem from="1531318527653" duration="773000" />
+      <workItem from="1531337048845" duration="297000" />
+      <workItem from="1531337776781" duration="810000" />
+      <workItem from="1531338594143" duration="6846000" />
+      <workItem from="1531346213271" duration="6000" />
+      <workItem from="1531346371326" duration="1560000" />
+      <workItem from="1531410764376" duration="2981000" />
+      <workItem from="1531456457064" duration="905000" />
+      <workItem from="1531482919075" duration="832000" />
+      <workItem from="1531502220404" duration="231000" />
+      <workItem from="1531571388837" duration="6523000" />
+      <workItem from="1531579384399" duration="2990000" />
+      <workItem from="1532261799768" duration="22366000" />
+    </task>
+    <task id="LOCAL-00001" summary="optimizing the java8 codes">
+      <created>1531157531621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531157531621</updated>
+    </task>
+    <task id="LOCAL-00002" summary="removed unused code">
+      <created>1531158218061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531158218061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="google cloud sql connection api und pom update">
+      <created>1531502375513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531502375514</updated>
+    </task>
+    <task id="LOCAL-00004" summary="google cloud sql connection api und pom update">
+      <created>1531571430763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531571430764</updated>
+    </task>
+    <task id="LOCAL-00005" summary="google cloud sql connection api und pom update">
+      <created>1531571637402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531571637402</updated>
+    </task>
+    <task id="LOCAL-00006" summary="travis mac osx update">
+      <created>1531572913862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531572913862</updated>
+    </task>
+    <task id="LOCAL-00007" summary="travis mac osx update">
+      <created>1531573191685</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1531573191685</updated>
+    </task>
+    <task id="LOCAL-00008" summary="travis mac osx update">
+      <created>1531573264118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531573264118</updated>
+    </task>
+    <task id="LOCAL-00009" summary="travis mac osx update">
+      <created>1531573374702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531573374702</updated>
+    </task>
+    <task id="LOCAL-00010" summary="travis mac osx update">
+      <created>1531573778276</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1531573778277</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding circleci build support">
+      <created>1531574820828</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1531574820828</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding circleci build status">
+      <created>1531576188143</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1531576188143</updated>
+    </task>
+    <task id="LOCAL-00013" summary="remove raw login data">
+      <created>1531576751843</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1531576751843</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updated to 1.8 jdk">
+      <created>1531576887846</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1531576887846</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added more images">
+      <created>1531578399934</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1531578399934</updated>
+    </task>
+    <task id="LOCAL-00016" summary="removed browser images">
+      <created>1531578584585</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1531578584585</updated>
+    </task>
+    <task id="LOCAL-00017" summary="adding appveyor support for Windows build">
+      <created>1531582361176</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1531582361176</updated>
+    </task>
+    <task id="LOCAL-00018" summary="adding appveyor support for Windows build">
+      <created>1531582510884</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1531582510884</updated>
+    </task>
+    <task id="LOCAL-00019" summary="adding appveyor support for Windows build and reformating build status">
+      <created>1531583172101</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1531583172101</updated>
+    </task>
+    <task id="LOCAL-00020" summary="adding appveyor support for Windows build and reformating build status">
+      <created>1531583631008</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1531583631009</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54478000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="729" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.226979" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32852563" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.4136808" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3257329" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.4150641" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32736155" />
+      <window_info anchor="bottom" id="SQL Generator" order="13" weight="0.32965517" />
+      <window_info anchor="bottom" id="TeamCity" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32875606" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32875606" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="optimizing the java8 codes" />
+    <MESSAGE value="removed unused code" />
+    <MESSAGE value="google cloud sql connection api und pom update" />
+    <MESSAGE value="travis mac osx update" />
+    <MESSAGE value="adding circleci build support" />
+    <MESSAGE value="adding circleci build status" />
+    <MESSAGE value="remove raw login data" />
+    <MESSAGE value="updated to 1.8 jdk" />
+    <MESSAGE value="added more images" />
+    <MESSAGE value="removed browser images" />
+    <MESSAGE value="adding appveyor support for Windows build" />
+    <MESSAGE value="adding appveyor support for Windows build and reformating build status" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding appveyor support for Windows build and reformating build status" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/euroMillio/EuroMillionDrawsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/Person.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/sql/ResultSet.java" />
+    <entry file="uml://MAVEN/com.euroMillio:euro-million-data:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.euroMillio:euro-million-data:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.euroMillio:euro-million-data:1.0-SNAPSHOT</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.27/org.glassfish.hk2.external:javax.inject:jar:2.5.0-b42</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/org.glassfish.jersey.core:jersey-common:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/org.glassfish.jersey.core:jersey-common:jar:2.27/javax.annotation:javax.annotation-api:jar:1.2</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/org.glassfish.jersey.core:jersey-common:jar:2.27/org.glassfish.hk2:osgi-resource-locator:jar:1.0.1</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/org.glassfish.jersey.core:jersey-server:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/org.glassfish.jersey.core:jersey-server:jar:2.27/org.glassfish.jersey.core:jersey-client:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/org.glassfish.jersey.core:jersey-server:jar:2.27/org.glassfish.jersey.media:jersey-media-jaxb:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/org.glassfish.jersey.core:jersey-server:jar:2.27/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.glassfish.jersey.containers:jersey-container-servlet:jar:2.27/javax.ws.rs:javax.ws.rs-api:jar:2.1</node>
+            <node x="" y="">org.glassfish.jersey.inject:jersey-hk2:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.inject:jersey-hk2:jar:2.27/org.glassfish.hk2:hk2-locator:jar:2.5.0-b42</node>
+            <node x="" y="">org.glassfish.jersey.inject:jersey-hk2:jar:2.27/org.glassfish.hk2:hk2-locator:jar:2.5.0-b42/org.glassfish.hk2.external:aopalliance-repackaged:jar:2.5.0-b42</node>
+            <node x="" y="">org.glassfish.jersey.inject:jersey-hk2:jar:2.27/org.glassfish.hk2:hk2-locator:jar:2.5.0-b42/org.glassfish.hk2:hk2-api:jar:2.5.0-b42</node>
+            <node x="" y="">org.glassfish.jersey.inject:jersey-hk2:jar:2.27/org.glassfish.hk2:hk2-locator:jar:2.5.0-b42/org.glassfish.hk2:hk2-api:jar:2.5.0-b42/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.glassfish.jersey.inject:jersey-hk2:jar:2.27/org.glassfish.hk2:hk2-locator:jar:2.5.0-b42/org.glassfish.hk2:hk2-utils:jar:2.5.0-b42</node>
+            <node x="" y="">org.glassfish.jersey.inject:jersey-hk2:jar:2.27/org.glassfish.hk2:hk2-locator:jar:2.5.0-b42/org.javassist:javassist:jar:3.22.0-CR2</node>
+            <node x="" y="">org.glassfish.jersey.media:jersey-media-json-binding:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.media:jersey-media-json-binding:jar:2.27/org.glassfish:javax.json:jar:1.1</node>
+            <node x="" y="">org.glassfish.jersey.media:jersey-media-json-binding:jar:2.27/org.eclipse:yasson:jar:1.0</node>
+            <node x="" y="">org.glassfish.jersey.media:jersey-media-json-binding:jar:2.27/org.eclipse:yasson:jar:1.0/javax.json:javax.json-api:jar:1.1</node>
+            <node x="" y="">org.glassfish.jersey.media:jersey-media-json-binding:jar:2.27/org.eclipse:yasson:jar:1.0/javax.enterprise:cdi-api:jar:2.0</node>
+            <node x="" y="">org.glassfish.jersey.media:jersey-media-json-binding:jar:2.27/org.eclipse:yasson:jar:1.0/javax.enterprise:cdi-api:jar:2.0/javax.el:javax.el-api:jar:3.0.0</node>
+            <node x="" y="">org.glassfish.jersey.media:jersey-media-json-binding:jar:2.27/org.eclipse:yasson:jar:1.0/javax.enterprise:cdi-api:jar:2.0/javax.interceptor:javax.interceptor-api:jar:1.2</node>
+            <node x="" y="">org.glassfish.jersey.media:jersey-media-json-binding:jar:2.27/javax.json.bind:javax.json.bind-api:jar:1.0</node>
+            <node x="" y="">org.jsoup:jsoup:jar:1.8.3</node>
+            <node x="" y="">org.eclipse.jetty:jetty-servlet:jar:9.0.6.v20130930</node>
+            <node x="" y="">org.eclipse.jetty:jetty-servlet:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-security:jar:9.0.6.v20130930</node>
+            <node x="" y="">org.eclipse.jetty:jetty-servlet:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-security:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-server:jar:9.0.6.v20130930</node>
+            <node x="" y="">org.eclipse.jetty:jetty-servlet:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-security:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-server:jar:9.0.6.v20130930/org.eclipse.jetty.orbit:javax.servlet:jar:3.0.0.v201112011016</node>
+            <node x="" y="">org.eclipse.jetty:jetty-servlet:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-security:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-server:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-http:jar:9.0.6.v20130930</node>
+            <node x="" y="">org.eclipse.jetty:jetty-servlet:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-security:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-server:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-io:jar:9.0.6.v20130930</node>
+            <node x="" y="">org.eclipse.jetty:jetty-webapp:jar:9.0.6.v20130930</node>
+            <node x="" y="">org.eclipse.jetty:jetty-webapp:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-xml:jar:9.0.6.v20130930</node>
+            <node x="" y="">org.eclipse.jetty:jetty-webapp:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-xml:jar:9.0.6.v20130930/org.eclipse.jetty:jetty-util:jar:9.0.6.v20130930</node>
+            <node x="" y="">com.google.cloud.sql:mysql-socket-factory-connector-j8:jar:1.0.10</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27/javax.servlet:javax.servlet-api:jar:4.0.0</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27/org.glassfish.jersey.test-framework:jersey-test-framework-core:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27/org.glassfish.jersey.test-framework:jersey-test-framework-core:jar:2.27/javax.servlet:javax.servlet-api:jar:3.0.1</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27/org.glassfish.jersey.containers:jersey-container-grizzly2-http:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27/org.glassfish.jersey.containers:jersey-container-grizzly2-http:jar:2.27/org.glassfish.grizzly:grizzly-http-server:jar:2.4.0</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27/org.glassfish.jersey.containers:jersey-container-grizzly2-http:jar:2.27/org.glassfish.grizzly:grizzly-http-server:jar:2.4.0/org.glassfish.grizzly:grizzly-http:jar:2.4.0</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27/org.glassfish.jersey.containers:jersey-container-grizzly2-http:jar:2.27/org.glassfish.grizzly:grizzly-http-server:jar:2.4.0/org.glassfish.grizzly:grizzly-http:jar:2.4.0/org.glassfish.grizzly:grizzly-framework:jar:2.4.0</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27/org.glassfish.jersey.containers:jersey-container-grizzly2-servlet:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:jar:2.27/org.glassfish.jersey.containers:jersey-container-grizzly2-servlet:jar:2.27/org.glassfish.grizzly:grizzly-http-servlet:jar:2.4.0</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-external:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jdk-http:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jdk-http:jar:2.27/org.glassfish.jersey.containers:jersey-container-jdk-http:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-simple:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-simple:jar:2.27/org.glassfish.jersey.containers:jersey-container-simple-http:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-simple:jar:2.27/org.glassfish.jersey.containers:jersey-container-simple-http:jar:2.27/org.simpleframework:simple-http:jar:6.0.1</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-simple:jar:2.27/org.glassfish.jersey.containers:jersey-container-simple-http:jar:2.27/org.simpleframework:simple-transport:jar:6.0.1</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-simple:jar:2.27/org.glassfish.jersey.containers:jersey-container-simple-http:jar:2.27/org.simpleframework:simple-common:jar:6.0.1</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty:jar:2.27/org.glassfish.jersey.containers:jersey-container-jetty-http:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty:jar:2.27/org.glassfish.jersey.containers:jersey-container-jetty-http:jar:2.27/org.eclipse.jetty:jetty-server:jar:9.4.7.v20170914</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty:jar:2.27/org.glassfish.jersey.containers:jersey-container-jetty-http:jar:2.27/org.eclipse.jetty:jetty-util:jar:9.4.7.v20170914</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-jetty:jar:2.27/org.glassfish.jersey.containers:jersey-container-jetty-http:jar:2.27/org.eclipse.jetty:jetty-continuation:jar:9.4.7.v20170914</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-netty:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-netty:jar:2.27/org.glassfish.jersey.containers:jersey-container-netty-http:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-netty:jar:2.27/org.glassfish.jersey.containers:jersey-container-netty-http:jar:2.27/org.glassfish.jersey.connectors:jersey-netty-connector:jar:2.27</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-netty:jar:2.27/org.glassfish.jersey.containers:jersey-container-netty-http:jar:2.27/org.glassfish.jersey.connectors:jersey-netty-connector:jar:2.27/io.netty:netty-all:jar:4.1.5.Final</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/junit:junit:jar:4.12</node>
+            <node x="" y="">org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-bundle:pom:2.27/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.1149511645379414" x="2078.0" y="-209.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43fb1373-1454-4ad2-b0fc-850cb2ce2821/console.sql" />
+    <entry file="das://5ada240b-939a-4c77-84f0-7edb2663159d/schema/heroku_71edc9fe3ad405e/table/euroresults.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5ada240b-939a-4c77-84f0-7edb2663159d/schema/heroku_71edc9fe3ad405e/table/person.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/sql/Statement.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/sql/Connection.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/ListTables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/sampleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="9" selection-start-line="16" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/DAOmysql.java" />
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credentials.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5ada240b-939a-4c77-84f0-7edb2663159d/console.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/heroku/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appveyor.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/model/PutItemRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1351">
+          <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/model/PutItemResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-929">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/util/TableUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/model/UpdateTableRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/AmazonDynamoDB.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/AbstractAmazonDynamoDB.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="234" column="5" selection-start-line="232" selection-start-column="90" selection-end-line="234" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-core/1.11.372/aws-java-sdk-core-1.11.372.jar!/com/amazonaws/auth/profile/ProfileCredentialsProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/model/ScanResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/document/spec/ScanSpec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/document/api/ScanApi.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/model/AttributeValue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/DAOcloudSql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="67" column="102" selection-start-line="67" selection-start-column="102" selection-end-line="67" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/commons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/document/internal/PutItemImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/document/Table.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="111" column="25" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="25" />
+          <folding>
+            <element signature="e#5560#5561#0" expanded="true" />
+            <element signature="e#5617#5618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-dynamodb/1.11.372/aws-java-sdk-dynamodb-1.11.372.jar!/com/amazonaws/services/dynamodbv2/document/PutItemOutcome.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/EuroResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/AmazonDynamoDBSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1308">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="88" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6425#6444#0" expanded="true" />
+            <element signature="e#8094#8118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/playground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/model/AwsDynamoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/euroMillio/EuroMillionDraws.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>euro-million-data:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37471265" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37471265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>euro-million-data</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37471265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-socket-factory-1.0.10-jar-with-dependencies</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37471265" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
