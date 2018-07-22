@@ -106,7 +106,7 @@ public class AwsDynamoDB {
         Table table = dynamoDBClient.getTable(tableName);
 
        return dynamoDB.scan(new ScanRequest().withTableName(tableName)).
-               getItems().stream().map(e-> ItemUtils.toItem(e).toJSONPretty()).
+               getItems().stream().map(e-> ItemUtils.toItem(e).toJSON()).
                collect(Collectors.toList());
     }
 
